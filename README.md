@@ -14,7 +14,7 @@ Also, the project is limited to React v18 due to type compatibility issues with 
 
 ## Getting Started
 
-Create a Shopify dev app
+Create a Shopify dev app [see docs](https://shopify.dev/docs/apps/build/dev-dashboard)
 
 Add these to your `.dev.vars` file
 ```
@@ -40,13 +40,15 @@ wrangler d1 create shopify-app-d1
 
 Create the shop table
 ```bash
-wrangler d1 migrations apply shopify-app-d1 [--remote]
+wrangler d1 migrations apply shopify-app-d1
+wrangler d1 migrations apply shopify-app-d1 --remote
 ```
 
 Run the Next.js development server:
 ```bash
-npm run dev
+npm run dev:https
 # or similar package manager command
+# https needed to work in shopify admin dashboard
 ```
 
 Application runs at [https://localhost:3000](https://localhost:3000)

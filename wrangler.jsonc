@@ -43,7 +43,7 @@
 		{
 			"binding": "DB",
 			"database_name": "shopify-app-d1",
-			"database_id": "9a57c603-d921-4caf-a999-802305079a0b",
+			"database_id": "9a57c603-d921-4caf-a999-802305079a0b", // replace with your db id
 			"migrations_dir": "./src/db/migrations"
 		}
 	],
