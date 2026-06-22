@@ -60,6 +60,9 @@ npm run shopify-dev
 
 Open the link shown in the terminal with your browser to see the result.
 
+For shopify theme extensions, use the 
+[shopify cli to generate an extensions folder](https://shopify.dev/docs/apps/build/online-store/theme-app-extensions/build)
+
 Staging - Shopify
 ```bash
 npm run shopify-dev-deploy

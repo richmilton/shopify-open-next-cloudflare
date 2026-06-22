@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "<YOUR_SHOPIFY_APP_DEV_ID>"
-name = "Shopify OpenNext Cloudflare (dev)"
+client_id = "f3120549863b4ac49b554675b32939f3" # replace with your manually created app id
+name = "Cloudflare OpenNext (dev)"
 application_url = "https://localhost:3000"
 embedded = true
 
