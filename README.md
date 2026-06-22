@@ -82,16 +82,16 @@ npm run preview
 
 Deploy the application to Cloudflare:
 
-Production - Cloudflare
+Cloudflare
 ```bash
 npm run deploy
 # or similar package manager command
 ```
 
-Production - Shopify
+Shopify
 ```bash
-# not yet implemented
-npm run shopify-deploy-prod
+
+npm run shopify-deploy
 # or similar package manager command
 ```
 
