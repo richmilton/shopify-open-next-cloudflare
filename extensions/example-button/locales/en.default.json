@@ -1,0 +1,6 @@
+{
+  "app": {
+    "tagLine": "Example extension: you could point this to your own external app",
+    "buttonText": "Example"
+  }
+}
