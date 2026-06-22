@@ -70,7 +70,6 @@ npm run shopify-dev-deploy
 ```
 
 ## Preview 
-(needs updating)
 
 Preview the application locally on the Cloudflare runtime:
 
@@ -93,18 +92,6 @@ Production - Shopify
 ```bash
 # not yet implemented
 npm run shopify-deploy-prod
-# or similar package manager command
-```
-
-Staging - Cloudflare
-```bash
-npm run deploy-staging
-# or similar package manager command
-```
-
-Staging - Shopify
-```bash
-npm run shopify-deploy
 # or similar package manager command
 ```
 
